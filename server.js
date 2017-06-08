@@ -26,7 +26,6 @@ const db = require('./db/queries')(knex);
 const loginRoutes = require("./routes/login");
 const resourceRoutes = require("./routes/new_resource");
 const registrationRoutes = require("./routes/registration");
-const userProfileRoutes = require("./routes/userprofile");
 const commentRoutes = require("./routes/comments");
 
 
