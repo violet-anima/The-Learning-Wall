@@ -6,7 +6,6 @@
 <img width="1260" alt="3index" src="https://user-images.githubusercontent.com/22466500/26951072-24a3ab2c-4c5d-11e7-9ae7-c5806da76e56.png">
 <img width="1259" alt="4" src="https://user-images.githubusercontent.com/22466500/26951073-2605be06-4c5d-11e7-83e5-1da24dcecee8.png">
 
-
 ## Project Setup
 
 1. Create your own empty repo on GitHub
@@ -35,7 +34,6 @@
 - Node 5.10.x or above
 - NPM 3.8.x or above
 
-
 ## Creating, Migrating and Seeding the Initial Database ##
 
 -Type the following command on your vagrant machine to connect to your postgres server:
@@ -57,48 +55,3 @@ knex migrate:latest
 ### To Seed all Tables
 from terminal type:
 knex seed:run
-
-
-
-## DATABASE TABLES #
-
-### USERS ###
-id (PK), <br />
-name, <br />
-email, <br />
-password<br />
-
-### RESOURCES ###
-id (PK), <br />
-user_id (FK), <br />
-resource_url, <br />
-created_at, <br />
-title, <br />
-description, <br />
-avg_rating, <br />
-likes_count<br />
-
-### RESOURCE TAGS ###
-resource_id (PK, FK), <br />
-tag_id (PK, FK)<br />
-
-### TAGS ###
-id (PK), <br />
-tag_name<br />
-
-### COMMENTS ###
-id (PK), <br />
-resource_id (FK),<br />
-user_id (FK), <br />
-c_text, <br />
-created_at<br />
-
-### RATINGS ###
-user_id (PK), <br />
-resource_id (PK), <br />
-value<br />
-
-### LIKES ###
-user_id (PK), <br />
-resource_id (PK)<br />
-
