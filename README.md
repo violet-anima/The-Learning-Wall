@@ -50,8 +50,8 @@ development database.
 
 ### To Fill all Tables
 From terminal type:
-knex migrate:latest
+`knex migrate:latest`
 
 ### To Seed all Tables
 from terminal type:
-knex seed:run
+`knex seed:run`
