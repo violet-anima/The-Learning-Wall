@@ -7,7 +7,7 @@
 <img width="1259" alt="4" src="https://user-images.githubusercontent.com/22466500/26951073-2605be06-4c5d-11e7-83e5-1da24dcecee8.png">
 
 
-## Project Setup
+## PROJECT SETUP ##
 
 1. Create your own empty repo on GitHub
 2. Clone this repository (do not fork)
